@@ -7,7 +7,7 @@ export default class Navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-secondary">
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">
+            <Link className="navbar-brand" to="/top">
               Morning Express
             </Link>
             <button

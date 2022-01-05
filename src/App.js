@@ -25,7 +25,7 @@ export default class App extends Component {
         progress={this.state.progress}
       />
           <Routes>
-            <Route exact path="/" element={<News setProgress={this.setProgress} apiKey={this.apiKey} key="top" country="in" category="world"/>}>
+            <Route exact path="/" element={<News setProgress={this.setProgress} apiKey={this.apiKey} key="top" country="in" category="top"/>}>
             </Route>
             <Route exact path="/business" element={<News setProgress={this.setProgress} apiKey={this.apiKey} key="business" country="in" category="business"/>}>
             </Route>

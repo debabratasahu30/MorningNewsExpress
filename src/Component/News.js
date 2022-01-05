@@ -6,7 +6,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 export default class News extends Component {   
   static defaultProps = {
 country:'in',
-category:'world',
+category:'top',
   };
   static propTypes = {
 country: PropTypes.string,
